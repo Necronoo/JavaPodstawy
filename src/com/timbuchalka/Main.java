@@ -10,6 +10,17 @@ public class Main {
         if (nowystring.equalsIgnoreCase("CZeSC!")) {
             System.out.println("Prawda");
         }
+        else {
+            System.out.println("nieprawda");
+        }
+        //3.6.5
+        if( nowystring.lenght()==0){
+            System.out.println("prawda");
+        }
+        else{
+            System.out.println("nieprwada");
+        }
+
     }
 }
 
